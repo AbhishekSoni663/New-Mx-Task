@@ -1,7 +1,7 @@
 import "../SixthComponent/SixthComp.css"
-import SixthImg1 from "/assets/FourthImg/food1.jpg";
-import SixthImg2 from "/assets/FourthImg/food2.jpg";
-import SixthImg3 from "/assets/FourthImg/food3.jpg";
+import SixthImg1 from "../assets/FourthImg/food1.jpg";
+import SixthImg2 from "../assets/FourthImg/food2.jpg";
+import SixthImg3 from "../assets/FourthImg/food3.jpg";
 const SixthComp = () => {
   return (
     <>

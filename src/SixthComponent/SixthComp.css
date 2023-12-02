@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 .sixth-sec{
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     justify-content: space-evenly;
 }
 .sixth-all-detail{
-   height: 100%;
+   min-height: 100%;
     display: flex;
     align-items: center;
     width: 100%;
@@ -24,7 +24,7 @@
 }
 .sixth-detail{
     display: flex;
-    height: 100%;
+    min-height: 100%;
     width: 80%;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -62,7 +62,7 @@
 
 
 .sixth-card-body{
-    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -96,7 +96,7 @@
     .sixth-detail{
         display: flex;
        flex-direction: column;
-        height: 100%;
+        min-height: 100%;
         align-items: center;
     }
     .sixth-card{
@@ -113,7 +113,7 @@
     .sixth-detail{
         display: flex;
        flex-direction: column;
-        height: 100%;
+        min-height: 100%;
         width: 100%;
         align-items: center;
     }

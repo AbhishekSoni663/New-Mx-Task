@@ -1,5 +1,5 @@
 import "../SecondComp/Story.css"
-import StoryImg from "/assets/Img/food_produce_235-e1506468905186-1.jpg";
+import StoryImg from "../assets/Img/foodpro.jpg";
 
 const Story = () => {
   return (

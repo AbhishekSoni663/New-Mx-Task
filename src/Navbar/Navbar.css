@@ -55,23 +55,24 @@ justify-content: space-between;
 }
 .sec-collapse{
     position: absolute;
-    top: 48px;
-    z-index: -1;
+    top: 65px;
+    /* left: 80px; */
+    border-radius: 0%;
+    /* z-index: -1; */
     padding: 29px;
     margin: auto;
-    /* background-color: blue !important; */
-    width: 72%;
+    background-color: rgb(213, 213, 233) !important;
+    width: 77%;
 }
 
-@media(max-width:350px){
+@media(max-width:380px){
    .sec-collapse{
     position: absolute;
-    top: 85px;
-    z-index: -1;
+    top: 94px;
+    right: 40px !important;
+    /* z-index: -1; */
     padding: 29px;
-    margin: auto;
     /* background-color: blue !important; */
-    width: 85%;
 }
 .sec-btn-ic2{
     margin-left: auto;

@@ -11,13 +11,26 @@
     /* background-color: blue; */
     display: flex;
     align-items: center;
+    min-height: 100vh;
     padding: 5px;
     justify-content: center;
 }
+
+.fourth-box-img{
+    height: 312px;
+}
+.fourth-box-img img{
+    height: 100%;
+    min-width: 100% !important;
+}
+.fourth-box-text{
+    height: 312px;
+}
+
 .grid-cont{
-    background-color: brown;
+    /* background-color: brown; */
     /* margin: 0 10px; */
-    width: 77% !important;
+    width: 85% !important;
 }
 .fourth-body1 h5{
     font-family: 'Playfair Display', serif;
@@ -43,8 +56,8 @@
       font-size: 15px;
 }
 .fourth-card1{
+    height: 100% !important;
     border: none;
-    min-height: 100% !important;
     border-radius: 0%;
     /* background-color: rgb(69, 82, 93); */
 }
