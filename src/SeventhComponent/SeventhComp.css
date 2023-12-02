@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&Montserrat:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.seventh-sec {
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgba(31, 31, 31, 0.8) 0%,
+      rgba(31, 31, 31, 0.8) 100%
+    ),
+    url("assets/Img/restaurant-hero-02.jpg");
+}
+
+.all-form{
+    display: flex;
+    /* background-color: aliceblue; */
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 70%;
+    min-height: 80vh;
+}
+.seventh-form1{
+     background-color: #1F1F1F;
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: black; */
+}
+.form-1-a{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+.form-h{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
+.form-h-1{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.formh-2{
+        height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.formh-3{
+        height: 85px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-2-a{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+.form2-btn{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+.seventh-form2{
+    width:500px;
+     background-color: #1F1F1F;
+}
+.form2-inp{
+    height: 200px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
+}
+.form2-btn p{
+    width: 70%;
+}
+.form2-detail{
+height: 70px;
+width: 100%;
+/* background-color: aliceblue; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.form2-inp input{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.566);
+    border:none;
+    width: 400px;
+}
+.form2-inp input::placeholder{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form2-inp-btn{
+    background-color: green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 397px;
+    letter-spacing: 1px;
+    padding: 9px;
+    background-color: #C39D63;
+}
+.form-btn1{
+       background-color: #C39D63;
+    width: 210px;
+    padding: 9px;
+}
+.form-foot{
+    background-color: #171717;
+    width: 100%;
+    color: #484848;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+.form-fo{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 12px;
+}
+.form2-icon{
+    width: 100px;
+    color: #484848;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form2-icon i{
+    font-size: 19px;
+}
+@media(max-width:1100px){
+    .all-form{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+    .seventh-form1{
+        width: 100%;
+        height: 100% ;
+    }
+    .seventh-form2{
+        width: 100%;
+    }
+    .form2-inp input{
+        width: 80%;
+    }
+    .form-fo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.form-h h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-h-1 p{
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+}
+.formh-2 p{
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+}
+.formh-3 p{
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+}
+.form-btn1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.1rem;
+}
+
+.form2-btn2{
+background-color: #C39D63;
+width: 170px;
+padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.form2-h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 28px;
+}
+.form2-p1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.form2-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.form2-btn p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.form-fo p{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+@media(max-width:768px){
+    .form2-inp-btn{
+        width: 100%;
+    }.form-fo{
+        width: 100%;
+    }
+
+}
